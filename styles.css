@@ -53,16 +53,23 @@ h3 {
     color: var(--Rose-800);
     font-weight: var(--font-weifht-600);
 }
+
 span {
     font-weight: var(--font-weifht-600);
     color: var(--Stone-900xs);
 }
+
 .article {
     font-size: var(--font-size);
     font-weight: var(--font-weifht-400);
     color: var(--Stone-600);
 }
+
+li {
+    padding-left: 20px;
+}
 /* ------------ */
+
 
 .recipe-container {
     background-color: var(--Stone-100);
