@@ -78,6 +78,11 @@ li {
     align-items: center;
     height: auto;
 }
+@media (max-width: 500px) {
+    .recipe-container {
+        display: block;
+    }
+}
 
 .recipe-component {
     padding: 40px;
@@ -86,10 +91,25 @@ li {
     margin: 120px 0 120px 0;
     border-radius: 20px;
 }
+@media (max-width: 500px) {
+    .recipe-component {
+        padding: 0;
+        max-width: 100%;
+        margin: 0;
+    }
+}
 
 .recipe-image {
   max-width: 650px;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+    .recipe-image {
+        max-width: 100%;
+    }
+    .article-container {
+        padding: 20px;
+    }
 }
 
 .preparation-container {
